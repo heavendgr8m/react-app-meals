@@ -89,6 +89,7 @@ const FavoritessTabNavigator = createStackNavigator();
 const FavoritesContainer = props => {
     return (
         <NavigationContainer
+            independent={true}
         >
             <FavoritessTabNavigator.Navigator>
                 <FavoritessTabNavigator.Screen name={Screens.FavoritesScreen} component={FavoritesScreen} />
