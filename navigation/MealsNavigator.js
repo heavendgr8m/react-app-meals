@@ -91,7 +91,11 @@ const FavoritesContainer = props => {
         <NavigationContainer
             independent={true}
         >
-            <FavoritessTabNavigator.Navigator>
+            <FavoritessTabNavigator.Navigator
+                screenOptions={styles.header}
+                mode="card"
+                headerMode="float"
+            >
                 <FavoritessTabNavigator.Screen name={Screens.FavoritesScreen} component={FavoritesScreen} />
                 <FavoritessTabNavigator.Screen name={Screens.MealDetailsScreen} component={MealDetailScreen} />
             </FavoritessTabNavigator.Navigator>

@@ -2,7 +2,7 @@ const Screens = {
     CategoriesScreen: 'Meals',
     CategoriesMealsScreen: 'CategoryMeals',
     MealDetailsScreen: 'MealDetail',
-    FavoritesScreen: 'Favorites',
+    FavoritesScreen: 'Your Favorites',
 }
 
 export default Screens;
